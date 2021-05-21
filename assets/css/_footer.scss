@@ -1,0 +1,74 @@
+footer#colophon {
+  .footer {
+    padding: 40px 0;
+	  img{
+		  max-width: 100%;
+	  }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .wpcf7-form {
+      input[type='text'],
+      input[type='email'] {
+        padding: 7px 10px;
+        color: #333332;
+        font-weight: 700;
+        border-radius: 4px;
+        border: 2px solid #ffffff;
+      }
+		input[type='email'] {
+			width: 100%;
+		}
+
+      input[type='submit'] {
+        display: inline-block;
+        padding: 12px 32px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        margin-right: 7px;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,.03);
+        color: #FFF;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: none;
+      }
+
+      .wpcf7-captchar {
+        width: 100px;
+      }
+
+      .wpcf7-captchac {
+        height: 42px;
+        line-height: 42px;
+      }
+
+    }
+  }
+
+  .text-copyright {
+    padding: 34px 0;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+
+footer#colophon.footer_style_new {
+  .text-copyright {
+    text-align: center;
+    border: none;
+    padding: 37px 0;
+  }
+}
+
+footer#colophon .text-copyright.border-copyright {
+  border-top: 1px solid transparent;
+}

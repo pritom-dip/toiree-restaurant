@@ -1,0 +1,66 @@
+$red-color: #dd3333;
+$black-color: #222222;
+$white-color: #ffffff;
+
+
+.site-footer {
+  text-align: center;
+
+  .flame-footer-logo img {
+    max-width: 75%;
+    height: auto;
+  }
+
+  .widget {
+    .widget-title {
+      margin: 0 0 25px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  .menu-footer-menu-container {
+    .menu {
+      li {
+        a {
+          font-size: 18px;
+          font-weight: 400;
+          vertical-align: middle;
+          padding: 5px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .wpcf7-form {
+    input[type='submit'] {
+      background: $red-color;
+      margin-left: -20px;
+    }
+  }
+
+}
+
+.flame-opening-hour {
+  background: $black-color;
+
+  h2, h1, h3, h4 {
+    color: #fff;
+  }
+
+  .trt-custom-btn {
+    background: $red-color;
+    @include hover {
+      background: darken($red-color, 15%);
+    }
+  }
+}
+
+header.header_v4 {
+  .menu_v4_wrapper {
+    .tm-flex {
+      width: 25%;
+    }
+  }
+}

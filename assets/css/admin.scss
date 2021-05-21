@@ -1,0 +1,59 @@
+.repeater-default{
+	.drag{
+		cursor: pointer;
+		& > div{
+			margin: 5px 0px;
+		}
+		#msg-img{
+			display: block;
+		}
+	}
+	.btn-add-menu{
+		color: #fff;
+	    background-color: #5bc0de;
+	    border-color: #46b8da;
+	    padding: 5px 10px;
+	    font-size: 12px;
+	    line-height: 1.5;
+	    border-radius: 3px;
+	    cursor: pointer;
+	}
+	.margin-t20{
+		margin-top:20px;
+	}
+	.menu-inline{
+		width:20%;
+		display: inline-block;
+		vertical-align: top;
+		&.width5{
+			width:5%;
+		}
+		&.width11{
+			width:11%;
+			text-align: center;
+		}
+		&.width30{
+			width: 30%;
+			.width100{
+				width: 100%;
+			}
+		}
+		&.menu-btn{
+			vertical-align: -webkit-baseline-middle;
+		}
+	}
+}
+
+
+
+
+.btn-delete-menu{
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    cursor: pointer;
+}

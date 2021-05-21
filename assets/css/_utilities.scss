@@ -1,0 +1,102 @@
+
+.counter-group,
+.inner-icon,
+.otreservations-description,
+.sc-heading {
+  text-align: center;
+}
+
+.site-content {
+  padding-top: 63px;
+  padding-bottom: 90px;
+}
+
+.site-content.no-padding-top {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.top_site_main {
+  position: relative;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  text-transform: uppercase;
+  min-height: 400px;
+}
+
+.sticky-logo {
+  display: none;
+}
+
+.disply-none {
+	display: none;
+}
+
+.container_custom {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container_custom:before, .container_custom:after {
+  content: " ";
+  display: table;
+}
+
+.container_custom:after {
+  clear: both;
+}
+
+
+.v-align-middle {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  .panel-last-child {
+    padding: 40px 40px 40px 60px;
+    @include respond-to(md) {
+    }
+  }
+
+  .panel-first-child {
+    margin-bottom: 0!important;
+  }
+
+
+}
+
+
+@media (min-width: 768px) {
+  .container_custom {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_custom {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_custom {
+    width: 1340px;
+  }
+}
+
+.b-menu-button-area{
+	.widget_sow-button {
+		display: inline-block;
+		margin: 10px;
+	}
+}

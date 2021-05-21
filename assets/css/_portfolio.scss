@@ -1,0 +1,139 @@
+.logged-in .lg-outer {
+  margin-top: 32px;
+}
+
+.displayed-image {
+  width: 100%;
+  height: auto;
+}
+
+.img-responsive {
+  display: none;
+}
+
+.portfolio-button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  width: 175px;
+  height: 48px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: #fff;
+  letter-spacing: 2px;
+  background-color: #363636;
+}
+
+.portfolio-button:hover {
+  background-color: #363636;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.portfolio-button.is-checked {
+  color: white;
+  background-color: #4b895b;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+  border: none;
+}
+
+.portfolio-button:active {
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.portfolio-gallery {
+  margin-top: 40px;
+}
+
+.portfolio-grid-item {
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  .image-wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    &:hover {
+      .image-overlay {
+        opacity: 1;
+      }
+    }
+
+
+    .image-overlay {
+      position: absolute;
+      z-index: 10;
+      width: calc(100% - 40px);
+      height: calc(100% - 40px);
+      bottom: 20px;
+      left: 20px;
+      opacity: 0;
+      background: rgba(0, 0, 0, .3);
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: background-color 0.2s, opacity 0.5s, filter 1.5s, transform 1s;
+      -moz-transition: background-color 0.2s, opacity 0.5s, filter 1.5s, transform 1s;
+      transition: background-color 0.2s, opacity 0.5s, filter 1.5s, transform 1s;
+      transform: scale(1.02);
+      -ms-transform: scale(1.02);
+      -webkit-transform: scale(1.02);
+
+      .image-icon-wrap {
+        position: absolute;
+        text-align: center;
+        bottom: 50%;
+        width: 100%;
+        z-index: 100;
+        margin-bottom: -25px;
+      }
+
+      .column-gridblock-icon {
+        display: inline-block;
+        opacity: 0.9;
+        height: 50px;
+        width: 50px;
+        font-weight: 400;
+        line-height: 52px;
+        text-align: center;
+        font-size: 12px;
+        margin: 0 1px 0 0;
+        background: #fff;
+        border-radius: 50px;
+
+        i {
+          font-size: 20px;
+          color: #000;
+          position: relative;
+          z-index: 100;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.lg-outer {
+  &.lg-pull-caption-up {
+    &.lg-thumb-open {
+      .lg {
+        .lg-sub-html {
+          bottom: 68px;
+        }
+      }
+    }
+  }
+  .lg-thumb{
+    margin: 0 auto;
+  }
+}
+
